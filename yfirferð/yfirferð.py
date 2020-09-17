@@ -46,7 +46,7 @@ while a0 !=1:
 #bugdet_base_charge = 40
 #daily_base_charge = 60
 
-like_to_continue = input("Would you like to continue (y/n)? ")
+"""like_to_continue = input("Would you like to continue (y/n)? ")
 while like_to_continue == "y" or like_to_continue == "n":
     if like_to_continue ==  "y":
         code = input("Customer code (b or d): ")
@@ -84,7 +84,31 @@ while like_to_continue == "y" or like_to_continue == "n":
 
 print("Welcome to car rentals!")
 print("Miles driven:",(Miles_driven))
-print("Amount due",round(Amount_due))
+print("Amount due",round(Amount_due))"""
 
 
 
+"""def inc(x):
+    x += 1
+    return x
+
+x = 5
+print(inc(inc(x)))"""
+
+"""def inc2(x):
+    x += 2
+    return x
+
+def apply(func, x):
+    return func(x)
+
+x = 4
+print(apply(inc2, x))"""
+
+
+def h():
+    x += 1
+
+x = 3
+h()
+print(x)

@@ -1,0 +1,15 @@
+import math
+
+start_int = int(input("Input starting integer: "))
+
+while start_int >= 2:
+    start_int = math.sqrt(start_int)
+    a = round(start_int,4)
+    print(a)
+    
+    
+        
+
+
+
+
